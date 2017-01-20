@@ -126,6 +126,7 @@ Plug 'sjl/gundo.vim'
 " 状态栏增强展示
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'dracula/vim'
 " rainbow_parentheses
 " 括号显示增强
 Plug 'kien/rainbow_parentheses.vim'
@@ -738,6 +739,13 @@ call plug#end()
     \ }
 " }}}
 
+" ################# window resize ############
+" {{{
+" map <A-h> <C-w><
+" map <A-j> <C-W>-
+" map <A-k> <C-W>+
+" map <A-l> <C-w>>
+" }}}
 
 " ################### 语言相关 ###################
 
