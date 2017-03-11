@@ -197,6 +197,8 @@ fun! ToggleFold()
     endif
 endfun
 
+nmap =j :%!python -m json.tool<CR>
+
 " 缩进配置
 " Smart indent
 set smartindent
