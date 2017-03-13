@@ -74,6 +74,8 @@ set nobackup
 " 关闭交换文件
 set noswapfile
 
+" 设置系统剪切板,非常有用，用来与其他应用共用复制逻辑
+set clipboard+=unnamed
 
 " TODO: remove this, use gundo
 " create undo file
