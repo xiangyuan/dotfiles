@@ -142,7 +142,8 @@ Plug 'altercation/vim-colors-solarized'
 " 主题 molokai
 Plug 'tomasr/molokai'
 
-
+" lua plugin
+Plug 'tbastos/vim-lua'
 " nav
 " nerdtree nerdtreetabs
 Plug 'scrooloose/nerdtree' | Plug 'jistr/vim-nerdtree-tabs'
@@ -687,6 +688,8 @@ endif
     let g:airline#extensions#tabline#enabled = 1
     let g:airline#extensions#tabline#tab_nr_type = 2
     let g:airline#extensions#tabline#show_tab_nr = 1
+    " let g:airline#extensions#syntastic#syntastic_stl_format = '[%E{%e(%fe)}]'
+
 " }}}
 
 
