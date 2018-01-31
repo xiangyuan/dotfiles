@@ -152,6 +152,9 @@ Plug 'vim-ctrlspace/vim-ctrlspace'
 " tagbar
 Plug 'majutsushi/tagbar'
 
+" json格式化的逻辑
+" 
+Plug 'axiaoxin/vim-json-line-format'
 " text object
 " 支持自定义文本对象
 Plug 'kana/vim-textobj-user'
