@@ -163,6 +163,9 @@ Plug 'kana/vim-textobj-entire'
 " 增加缩进文本对象: i   dai yai cii - 相同缩进属于同一块
 Plug 'kana/vim-textobj-indent'
 
+Plug 'vim-scripts/vim-json-line-format'
+nnoremap =j :python json_line_format_write()<CR>
+
 if count(g:bundle_groups, 'tmux')
     " tmux
     " For tmux navigator Ctrl-hjkl
