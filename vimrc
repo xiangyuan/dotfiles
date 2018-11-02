@@ -24,6 +24,8 @@
 " Initial Plugin 加载插件
 "==========================================
 
+let $RUBYHOME=$HOME."/.rvm/rubies/ruby-2.5.1"
+set rubydll=$HOME./.rvm/rubies/ruby-2.5.1/lib/libruby.2.5.1.dylib
 " 修改leader键
 let mapleader = ','
 let g:mapleader = ','
