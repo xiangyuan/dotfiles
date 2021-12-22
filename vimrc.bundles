@@ -39,7 +39,7 @@ endif
 " Group dependencies, vim-snippets depends on ultisnips
 " 代码片段快速插入 (snippets中,是代码片段资源,需要学习)
 " Snippets are separated from the engine. Add this if you want them:
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'honza/vim-snippets'
 
 " auto complete
 " 代码自动补全
@@ -163,8 +163,8 @@ Plug 'kana/vim-textobj-entire'
 " 增加缩进文本对象: i   dai yai cii - 相同缩进属于同一块
 Plug 'kana/vim-textobj-indent'
 
-Plug 'vim-scripts/vim-json-line-format'
-nnoremap =j :python json_line_format_write()<CR>
+" Plug 'vim-scripts/vim-json-line-format'
+" nnoremap =j :python json_line_format_write()<CR>
 
 if count(g:bundle_groups, 'tmux')
     " tmux
@@ -199,9 +199,9 @@ if count(g:bundle_groups, 'python')
 
     " isort  https://github.com/timothycrosley/isort#readme + https://github.com/fisadev/vim-isort#installation
     " pip install isort
-    Plug 'fisadev/vim-isort'
+    " Plug 'fisadev/vim-isort'
     " Shift-V 上下选中, ctrl + i 规范化
-    let g:vim_isort_map = '<C-i>'
+    " let g:vim_isort_map = '<C-i>'
 endif
 
 if count(g:bundle_groups, 'php')
@@ -436,7 +436,6 @@ endif
     let g:ycm_key_list_previous_completion = ['<Up>']
     let g:ycm_complete_in_comments = 1  "在注释输入中也能补全
     let g:ycm_complete_in_strings = 1   "在字符串输入中也能补全
-    let g:ycm_use_ultisnips_completer = 1 "提示UltiSnips
     let g:ycm_collect_identifiers_from_comments_and_strings = 1   "注释和字符串中的文字也会被收入补全
     let g:ycm_collect_identifiers_from_tags_files = 1
     " 开启语法关键字补全
